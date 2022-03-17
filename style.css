@@ -2,7 +2,7 @@
 @import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
 body {
   font-family: 'Open Sans';
-  background-color: rgb(78, 77, 92);
+  background-color: rgb(217, 217, 221);
   color: rgb(45, 70, 84);
   font-size: 16px;
   line-height: normal;
@@ -48,6 +48,8 @@ width: 500px;
   text-align: center;
   border-radius: 4px;
   padding: 40px;
+  box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
+  border: 1px solid rgb(11, 11, 11);
 }
 
 .img-circle {
@@ -62,6 +64,8 @@ width: 500px;
   margin: 8px 24px;
   border-radius: 4px;
   box-shadow: 0 5px 15 px rgba(0,0,0,0.1);
+  border: 1px solid rgb(11, 11, 11);
+
 }
 
 .list-inline {
