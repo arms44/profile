@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700&display=swap');
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+body {
+  font-family: 'Open Sans';
+  background-color: rgb(78, 77, 92);
+  color: rgb(45, 70, 84);
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 00;
+
+}
+
+h1 {
+    font-family: 'Poppins';
+    color: rgb(45, 70, 84);
+    font-size: 28px;
+}
+
+h2 {
+  font-family: 'Poppins';
+  color: rgb(45, 70, 84);
+  font-size: 22px;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(45, 94, 115)
+}
+
+a:hover {
+  color: rgb(45, 70, 84);
+}
+
+div {
+background-color: aliceblue;
+padding: 24px;
+margin: 0 auto;
+width: 500px;
+}
+
+.container {
+  background: white;
+  padding: 24px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin: 24 auto;
+  width: 500px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 40px;
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.button-blk {
+  background-color: rgb(128, 94, 115);
+  color: aliceblue;
+  padding: 8px 24px;
+  margin: 8px 24px;
+  border-radius: 4px;
+  box-shadow: 0 5px 15 px rgba(0,0,0,0.1);
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+
+font-size: 26px;
+color: rgb(128, 94, 115);
+margin: 8px 16px;
+
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
